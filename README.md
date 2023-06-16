@@ -1,11 +1,11 @@
-About r-eigenmodel
-==================
+About r-eigenmodel-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-eigenmodel-feedstock/blob/main/LICENSE.txt)
 
 Home: https://pdhoff.github.io/
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-eigenmodel-feedstock/blob/main/LICENSE.txt)
 
 Summary: Estimation of the parameters in a model for symmetric relational data (e.g., the above-diagonal part of a square matrix), using a model-based eigenvalue decomposition and regression. Missing data is accommodated, and a posterior mean for missing data is calculated under the assumption that the data are missing at random. The marginal distribution of the relational data can be arbitrary, and is fit with an ordered probit specification. See Hoff (2007) <arXiv:0711.1146> for details on the model.
 
