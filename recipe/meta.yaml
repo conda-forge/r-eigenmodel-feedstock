@@ -1,4 +1,4 @@
-{% set version = '1.11' %}
+{% set version = "1.12" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/eigenmodel_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/eigenmodel/eigenmodel_{{ version }}.tar.gz
-  sha256: 8dac650db4331c427c1afbfc7296889d3eb164c0b5feee99e9c37533ce0776d0
+  sha256: 7714d1ac31ec422bea802963d0b4c0577711935d51896b4cdbfe6c2ae393bb89
 
 build:
-  number: 4
+  number: 0
   noarch: generic
 
   rpaths:
@@ -39,12 +39,8 @@ about:
   home: https://pdhoff.github.io/
 
   license: GPL-2.0-only
-  summary: Estimation of the parameters in a model for symmetric relational data (e.g., the above-diagonal
-    part of a square matrix), using a model-based eigenvalue decomposition and regression.
-    Missing data is accommodated, and a posterior mean for missing data is calculated
-    under the assumption that the data are missing at random. The marginal distribution
-    of the relational data can be arbitrary, and is fit with an ordered probit specification.
-    See Hoff (2007) <arXiv:0711.1146> for details on the model.
+  summary: Estimation of the parameters in a model for symmetric relational data (e.g., the above-diagonal part of a square matrix), using a model-based eigenvalue decomposition and regression. Missing data is accommodated, and a posterior mean for missing data is calculated under the assumption that the data are missing
+    at random. The marginal distribution of the relational data can be arbitrary, and is fit with an ordered probit specification. See Hoff (2007) <arXiv:0711.1146> for details on the model.
 
   license_family: GPL2
   license_file:
